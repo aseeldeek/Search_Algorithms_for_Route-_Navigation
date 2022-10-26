@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Mpage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="715.0" prefWidth="903.0" style="-fx-background-color: #DDDDDD;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Path.GraphController">
+   <children>
+      <Button fx:id="w1Button" layoutX="43.0" layoutY="425.0" mnemonicParsing="false" onAction="#w1Button" style="-fx-background-color: #FDFCE5; -fx-border-color: #F1E1A6;" text="Confirm">
+         <font>
+            <Font name="Rockwell Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="w2Button" alignment="CENTER_RIGHT" contentDisplay="BOTTOM" layoutX="43.0" layoutY="623.0" mnemonicParsing="false" onAction="#w2Button" style="-fx-background-color: #FDFCE5; -fx-border-color: #F1E1A6;" text="Calculate">
+         <font>
+            <Font name="Rockwell Bold" size="16.0" />
+         </font></Button>
+      <AnchorPane fx:id="sPage" layoutX="509.0" layoutY="25.0" prefHeight="643.0" prefWidth="342.0">
+         <children>
+            <ImageView fitHeight="643.0" fitWidth="342.0" layoutX="22.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@FreePalestine.png" />
+               </image>
+            </ImageView>
+            <RadioButton layoutX="185.0" layoutY="88.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="8.0" prefWidth="50.0" text="Haifa">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="cities" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton layoutX="250.0" layoutY="57.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="14.0" prefWidth="66.0" text="Safad" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="235.0" layoutY="94.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Nazareth" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="202.0" layoutY="141.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Tulkarm" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="160.0" layoutY="175.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Yafa" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="210.0" layoutY="184.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Nablus" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="250.0" layoutY="168.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Tubas" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="225.0" layoutY="122.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Jenin" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="191.0" layoutY="159.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Qalqilya" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="193.0" layoutY="202.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Ramallah" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="157.0" layoutY="220.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Ramleh" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="210.0" layoutY="238.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Jerusalem" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="187.0" layoutY="282.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Hebron" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="169.0" layoutY="301.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Dura" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="220.0" layoutY="264.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="78.0" text="Bethlehem" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="118.0" layoutY="282.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Gaza" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="95.0" layoutY="319.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Rafah" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="250.0" layoutY="220.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Jericho" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="162.0" layoutY="345.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="78.0" text="BeerSheba" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="201.0" layoutY="65.0" mnemonicParsing="false" onAction="#ActionCity" prefHeight="18.0" prefWidth="66.0" text="Aka" toggleGroup="$cities">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </AnchorPane>
+      <Label fx:id="title" alignment="CENTER" layoutX="42.0" layoutY="14.0" prefHeight="57.0" prefWidth="450.0" style="-fx-background-color: #E6E6E6;" text="Palestine Map">
+         <font>
+            <Font name="Rockwell Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="t4" layoutX="40.0" layoutY="92.0" prefHeight="26.0" prefWidth="267.0" style="-fx-background-color: #E6E6E6;" text="📌  Pick up Where you Wanna Start: ">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comBox" layoutX="42.0" layoutY="130.0" onAction="#comBox" prefWidth="150.0" promptText="Select a City" style="-fx-background-color: #F7F5F2; -fx-border-color: #D0C9C0;" />
+      <Label fx:id="t1" layoutX="40.0" layoutY="164.0" prefHeight="26.0" prefWidth="267.0" style="-fx-background-color: #E6E6E6;" text="📌  Your Selected Goals:">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="GoalsBord" editable="false" layoutX="40.0" layoutY="198.0" prefHeight="100.0" prefWidth="198.0" style="-fx-background-color: #FDFCE5;" />
+      <Label fx:id="t2" layoutX="40.0" layoutY="307.0" prefHeight="26.0" prefWidth="267.0" style="-fx-background-color: #E6E6E6;" text="📌  Options: ">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="t3" layoutX="40.0" layoutY="473.0" prefHeight="32.0" prefWidth="267.0" style="-fx-background-color: #E6E6E6;" text="📌 Choose How to Calculate Your Path">
+         <font>
+            <Font name="Rockwell Bold" size="13.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rButton1" layoutX="43.0" layoutY="513.0" mnemonicParsing="false" onAction="#SearchForGoal" text="Bredth First Search (BFS)">
+         <font>
+            <Font name="Rockwell Bold" size="13.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="algorithms" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rButton2" layoutX="43.0" layoutY="538.0" mnemonicParsing="false" onAction="#SearchForGoal" text="Depth Fist Search (DFS)" toggleGroup="$algorithms">
+         <font>
+            <Font name="Rockwell Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rButton3" layoutX="43.0" layoutY="563.0" mnemonicParsing="false" onAction="#SearchForGoal" text="A* Search for Car Distance &amp; Walking Distance" toggleGroup="$algorithms">
+         <font>
+            <Font name="Rockwell Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rButton4" layoutX="43.0" layoutY="590.0" mnemonicParsing="false" onAction="#SearchForGoal" text="A* Search for Walking Distance&amp; Arial Distance " toggleGroup="$algorithms">
+         <font>
+            <Font name="Rockwell Bold" size="13.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="b1" layoutX="42.0" layoutY="347.0" mnemonicParsing="false" onAction="#OptionsChoice" text="Find Walking Cost Bar Chart">
+         <font>
+            <Font name="Rockwell Bold" size="12.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="Data" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="b2" layoutX="42.0" layoutY="371.0" mnemonicParsing="false" onAction="#OptionsChoice" text="Find Car Cost Bar Chart" toggleGroup="$Data">
+         <font>
+            <Font name="Rockwell Bold" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="b3" layoutX="42.0" layoutY="396.0" mnemonicParsing="false" onAction="#OptionsChoice" prefHeight="18.0" prefWidth="224.0" text="Find Ariel  Distance Bar Chart" toggleGroup="$Data">
+         <font>
+            <Font name="Rockwell Bold" size="12.0" />
+         </font>
+      </RadioButton>
+      <Button fx:id="cButton" alignment="BOTTOM_CENTER" layoutX="529.0" layoutY="679.0" mnemonicParsing="false" onAction="#ClearAcrtion" style="-fx-background-color: #FDFCE5; -fx-border-color: #F1E1A6;" text="Try Again">
+         <font>
+            <Font name="Rockwell Bold" size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="873.0" style="-fx-background-color: #DDDDDD;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Path.Window1Controller">
+   <children>
+      <Button fx:id="backButton" alignment="CENTER" layoutX="366.0" layoutY="586.0" mnemonicParsing="false" onAction="#backButton" prefHeight="32.0" prefWidth="171.0" style="-fx-background-color: #FDEBF7; -fx-border-color: #8d0c8b;" text="Back to Main Page" textFill="#81019e">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font></Button>
+      <BarChart fx:id="barchart" layoutX="84.0" layoutY="61.0" prefHeight="484.0" prefWidth="717.0" style="-fx-border-color: #EDE6DB;" stylesheets="@application.css" title="Data File Input">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

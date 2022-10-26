@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="897.0" style="-fx-background-color: #DDDDDD;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Path.Window2Controller">
+   <children>
+      <Button fx:id="backButton" layoutX="48.0" layoutY="618.0" mnemonicParsing="false" onAction="#backButton" prefHeight="31.0" prefWidth="152.0" style="-fx-background-color: #FDFCE5; -fx-border-color: #F1E1A6;" text="Back to Main Page" textFill="#590373">
+         <font>
+            <Font name="Rockwell Bold" size="13.0" />
+         </font></Button>
+      <AnchorPane fx:id="ap" layoutX="520.0" layoutY="14.0" prefHeight="636.0" prefWidth="339.0">
+         <children>
+            <ImageView fitHeight="636.0" fitWidth="339.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@FreePalestine.png" />
+               </image>
+            </ImageView>
+            <Circle fx:id="Aka" layoutX="182.0" layoutY="85.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Haifa" layoutX="166.0" layoutY="104.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Safad" layoutX="227.0" layoutY="78.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Nazareth" layoutX="210.0" layoutY="118.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Yafa" layoutX="147.0" layoutY="192.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Tulkarm" layoutX="184.0" layoutY="165.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Nablus" layoutX="215.0" layoutY="187.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Ramallah" layoutX="198.0" layoutY="224.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Ramleh" layoutX="162.0" layoutY="221.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Jericho" layoutX="227.0" layoutY="256.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Jerusalem" layoutX="206.0" layoutY="259.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Bethlehem" layoutX="183.0" layoutY="275.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Hebron" layoutX="176.0" layoutY="297.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Rafah" layoutX="82.0" layoutY="332.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Gaza" layoutX="98.0" layoutY="297.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="BeerSheba" layoutX="144.0" layoutY="354.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Jenin" layoutX="216.0" layoutY="150.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Tubas" layoutX="233.0" layoutY="167.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Qalqilya" layoutX="185.0" layoutY="192.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="Dura" layoutX="161.0" layoutY="317.0" radius="3.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label layoutX="163.0" layoutY="68.0" text="Aka">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="189.0" layoutY="270.0" text="Bethlehem">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="240.0" layoutY="67.0" text="Safad">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="197.0" layoutY="98.0" text="Nazareth">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="223.0" layoutY="240.0" text="Jericho">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="131.0" layoutY="93.0" text="Haifa">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="220.0" layoutY="138.0" text="Jenin">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="159.0" layoutY="241.0" text="Jerusalem">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="126.0" layoutY="355.0" text="BeerSheba">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="87.0" layoutY="324.0" text="Rafah">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="284.0" text="Gaza">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="121.0" layoutY="183.0" text="Yafa">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="145.0" layoutY="318.0" text="Dura">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="186.0" layoutY="295.0" text="Hebron">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="206.0" layoutY="213.0" text="Ramallah">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="131.0" layoutY="224.0" text="Ramleh">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="189.0" layoutY="190.0" text="Qalqilya">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="220.0" layoutY="176.0" text="Nablus">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="244.0" layoutY="159.0" text="Tubas">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="158.0" layoutY="138.0" text="Tulkarm">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="title" alignment="CENTER" layoutX="45.0" layoutY="31.0" prefHeight="31.0" prefWidth="363.0" text=" Your Traveling Results  " textFill="#590373">
+         <font>
+            <Font name="Rockwell Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="97.0" prefHeight="31.0" prefWidth="331.0" text=" The Discoverd Path: " textFill="#590373">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="362.0" prefHeight="31.0" prefWidth="235.0" text=" The Cost of The Discoverd Path: " textFill="#590373">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="pathArea" editable="false" layoutX="22.0" layoutY="129.0" prefHeight="141.0" prefWidth="457.0" style="-fx-background-color: #F9F3EE;" />
+      <Label layoutX="34.0" layoutY="418.0" prefHeight="31.0" prefWidth="331.0" text=" The Vistied Cities: " textFill="#590373">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="visitedArea" editable="false" layoutX="28.0" layoutY="458.0" prefHeight="142.0" prefWidth="445.0" />
+      <Label layoutX="407.0" layoutY="370.0" text="Km" textFill="#590373">
+         <font>
+            <Font name="Rockwell Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="costArea" editable="false" layoutX="264.0" layoutY="354.0" prefHeight="63.0" prefWidth="130.0" />
+      <ComboBox fx:id="selectPath" layoutX="25.0" layoutY="287.0" onAction="#PrintPathOnMap" prefHeight="16.0" prefWidth="235.0" promptText="Select the Goal to See the Path" style="-fx-background-color: #F1EEE9; -fx-border-color: #BDE6F1;" />
+   </children>
+</AnchorPane>
