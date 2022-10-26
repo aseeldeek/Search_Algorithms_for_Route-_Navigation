@@ -22,3 +22,7 @@ goal of finding an optimal path between cities in Palestine.
   <li> A* Algorithm </li>
 </ul>
 
+<h2>  🌟 A video for the Project Testing : </h2>
+https://user-images.githubusercontent.com/67188711/198040713-6f7ab2fe-1f69-41ae-a587-832f335b3488.mp4
+
+
